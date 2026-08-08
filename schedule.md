@@ -1,15 +1,17 @@
 # Schedule: August 3–December 31, 2026
 
+**Daily workload rule:** A day centred on one Medium problem remains a single-problem day. A day centred on one Easy problem includes up to three related Easy problems. Review, timed-set, and template days remain unchanged.
+
 ## Week 1 · Aug 3–9 — Arrays: binary search and two pointers
 
 | Day | LeetCode |
 | --- | --- |
-| Mon | 704. Binary Search |
-| Tue | 35. Search Insert Position |
-| Wed | 27. Remove Element |
-| Thu | 977. Squares of a Sorted Array |
-| Fri | 26. Remove Duplicates from Sorted Array |
-| Sat | 283. Move Zeroes |
+| Mon | 704. Binary Search<br>69. Sqrt(x)<br>374. Guess Number Higher or Lower |
+| Tue | 35. Search Insert Position<br>744. Find Smallest Letter Greater Than Target<br>1539. Kth Missing Positive Number |
+| Wed | 27. Remove Element<br>88. Merge Sorted Array<br>905. Sort Array By Parity |
+| Thu | 977. Squares of a Sorted Array<br>1089. Duplicate Zeros<br>1299. Replace Elements with Greatest Element on Right Side |
+| Fri | 26. Remove Duplicates from Sorted Array<br>268. Missing Number<br>136. Single Number |
+| Sat | 283. Move Zeroes<br>941. Valid Mountain Array<br>485. Max Consecutive Ones |
 | Sun | Review 704, 27 and 977 |
 
 **Focus:**
@@ -27,7 +29,7 @@
 | Tue | 904. Fruit Into Baskets |
 | Wed | 59. Spiral Matrix II |
 | Thu | 54. Spiral Matrix |
-| Fri | 724. Find Pivot Index |
+| Fri | 724. Find Pivot Index<br>1480. Running Sum of 1d Array<br>1732. Find the Highest Altitude |
 | Sat | 560. Subarray Sum Equals K |
 | Sun | Review 209, 59 and 560 |
 
@@ -39,12 +41,12 @@ Do not worry if LC 76 is too difficult now. It is primarily an advanced sliding-
 
 | Day | LeetCode |
 | --- | --- |
-| Mon | 203. Remove Linked List Elements |
+| Mon | 203. Remove Linked List Elements<br>237. Delete Node in a Linked List<br>876. Middle of the Linked List |
 | Tue | 707. Design Linked List |
-| Wed | 206. Reverse Linked List |
+| Wed | 206. Reverse Linked List<br>83. Remove Duplicates from Sorted List<br>1290. Convert Binary Number in a Linked List to Integer |
 | Thu | 24. Swap Nodes in Pairs |
 | Fri | 19. Remove Nth Node From End of List |
-| Sat | 160. Intersection of Two Linked Lists |
+| Sat | 160. Intersection of Two Linked Lists<br>876. Middle of the Linked List (review)<br>1290. Convert Binary Number in a Linked List to Integer (review) |
 | Sun | Review 206, 24 and 19 |
 
 **Important patterns:**
@@ -58,10 +60,10 @@ Do not worry if LC 76 is too difficult now. It is primarily an advanced sliding-
 
 | Day | LeetCode |
 | --- | --- |
-| Mon | 141. Linked List Cycle |
+| Mon | 141. Linked List Cycle<br>876. Middle of the Linked List (review)<br>21. Merge Two Sorted Lists (review) |
 | Tue | 142. Linked List Cycle II |
 | Wed | 143. Reorder List |
-| Thu | 234. Palindrome Linked List |
+| Thu | 234. Palindrome Linked List<br>83. Remove Duplicates from Sorted List (review)<br>1290. Convert Binary Number in a Linked List to Integer (review) |
 | Fri | Redo 707. Design Linked List |
 | Sat | Timed set: 203, 206 and 19 |
 | Sun | Write linked-list templates from memory |
@@ -78,11 +80,11 @@ boolean hasCycle(ListNode head)
 
 | Day | LeetCode |
 | --- | --- |
-| Mon | 242. Valid Anagram |
-| Tue | 1002. Find Common Characters |
-| Wed | 349. Intersection of Two Arrays |
-| Thu | 202. Happy Number |
-| Fri | 1. Two Sum |
+| Mon | 242. Valid Anagram<br>205. Isomorphic Strings<br>387. First Unique Character in a String |
+| Tue | 1002. Find Common Characters<br>771. Jewels and Stones<br>1160. Find Words That Can Be Formed by Characters |
+| Wed | 349. Intersection of Two Arrays<br>350. Intersection of Two Arrays II<br>1207. Unique Number of Occurrences |
+| Thu | 202. Happy Number<br>217. Contains Duplicate<br>219. Contains Duplicate II |
+| Fri | 1. Two Sum<br>167. Two Sum II - Input Array Is Sorted<br>1929. Concatenation of Array |
 | Sat | 454. 4Sum II |
 | Sun | Review 242, 1 and 454 |
 
@@ -90,7 +92,7 @@ boolean hasCycle(ListNode head)
 
 | Day | LeetCode |
 | --- | --- |
-| Mon | 383. Ransom Note |
+| Mon | 383. Ransom Note<br>1189. Maximum Number of Balloons<br>1832. Check if the Sentence Is Pangram |
 | Tue | 15. 3Sum |
 | Wed | Continue and optimize 15. 3Sum |
 | Thu | 18. 4Sum |
@@ -108,12 +110,12 @@ LC 15 and LC 18 belong in the hash-table chapter, but their best solutions mainl
 
 | Day | LeetCode |
 | --- | --- |
-| Mon | 344. Reverse String |
-| Tue | 541. Reverse String II |
+| Mon | 344. Reverse String<br>345. Reverse Vowels of a String<br>125. Valid Palindrome |
+| Tue | 541. Reverse String II<br>557. Reverse Words in a String III<br>58. Length of Last Word |
 | Wed | 151. Reverse Words in a String |
-| Thu | 28. Find the Index of the First Occurrence in a String |
+| Thu | 28. Find the Index of the First Occurrence in a String<br>14. Longest Common Prefix<br>796. Rotate String |
 | Fri | Continue LC 28 using KMP |
-| Sat | 459. Repeated Substring Pattern |
+| Sat | 459. Repeated Substring Pattern<br>1071. Greatest Common Divisor of Strings<br>415. Add Strings |
 | Sun | Review KMP prefix table |
 
 For LC 28, first solve it using the straightforward approach. Then study KMP; do not expect to derive KMP independently on the first attempt.
@@ -122,10 +124,10 @@ For LC 28, first solve it using the straightforward approach. Then study KMP; do
 
 | Day | LeetCode |
 | --- | --- |
-| Mon | 232. Implement Queue Using Stacks |
-| Tue | 225. Implement Stack Using Queues |
-| Wed | 20. Valid Parentheses |
-| Thu | 1047. Remove All Adjacent Duplicates in String |
+| Mon | 232. Implement Queue Using Stacks<br>933. Number of Recent Calls<br>1700. Number of Students Unable to Eat Lunch |
+| Tue | 225. Implement Stack Using Queues<br>682. Baseball Game<br>1544. Make The String Great |
+| Wed | 20. Valid Parentheses<br>844. Backspace String Compare<br>496. Next Greater Element I |
+| Thu | 1047. Remove All Adjacent Duplicates in String<br>2696. Minimum String Length After Removing Substrings<br>3174. Clear Digits |
 | Fri | 150. Evaluate Reverse Polish Notation |
 | Sat | 239. Sliding Window Maximum |
 | Sun | Review 20, 150 and 239 |
@@ -137,9 +139,9 @@ LC 239 is the first important monotonic-queue problem. It is normal to require t
 | Day | LeetCode |
 | --- | --- |
 | Mon | 347. Top K Frequent Elements |
-| Tue | 144. Binary Tree Preorder Traversal |
-| Wed | 94. Binary Tree Inorder Traversal |
-| Thu | 145. Binary Tree Postorder Traversal |
+| Tue | 144. Binary Tree Preorder Traversal<br>589. N-ary Tree Preorder Traversal<br>100. Same Tree |
+| Wed | 94. Binary Tree Inorder Traversal<br>897. Increasing Order Search Tree<br>530. Minimum Absolute Difference in BST |
+| Thu | 145. Binary Tree Postorder Traversal<br>590. N-ary Tree Postorder Traversal<br>572. Subtree of Another Tree |
 | Fri | Redo all three traversals iteratively |
 | Sat | 102. Binary Tree Level Order Traversal |
 | Sun | Write DFS and BFS templates |
@@ -155,22 +157,22 @@ void bfs(TreeNode root)
 
 | Day | LeetCode |
 | --- | --- |
-| Mon | 226. Invert Binary Tree |
-| Tue | 101. Symmetric Tree |
-| Wed | 104. Maximum Depth of Binary Tree |
-| Thu | 111. Minimum Depth of Binary Tree |
-| Fri | 222. Count Complete Tree Nodes |
-| Sat | 110. Balanced Binary Tree |
+| Mon | 226. Invert Binary Tree<br>617. Merge Two Binary Trees<br>100. Same Tree (review) |
+| Tue | 101. Symmetric Tree<br>965. Univalued Binary Tree<br>572. Subtree of Another Tree (review) |
+| Wed | 104. Maximum Depth of Binary Tree<br>543. Diameter of Binary Tree<br>559. Maximum Depth of N-ary Tree |
+| Thu | 111. Minimum Depth of Binary Tree<br>671. Second Minimum Node In a Binary Tree<br>993. Cousins in Binary Tree |
+| Fri | 222. Count Complete Tree Nodes<br>101. Symmetric Tree (review)<br>100. Same Tree (review) |
+| Sat | 110. Balanced Binary Tree<br>563. Binary Tree Tilt<br>872. Leaf-Similar Trees |
 | Sun | Review recursive return-value design |
 
 ## Week 11 · Oct 12–18 — Tree paths and construction
 
 | Day | LeetCode |
 | --- | --- |
-| Mon | 257. Binary Tree Paths |
-| Tue | 404. Sum of Left Leaves |
+| Mon | 257. Binary Tree Paths<br>637. Average of Levels in Binary Tree<br>993. Cousins in Binary Tree (review) |
+| Tue | 404. Sum of Left Leaves<br>563. Binary Tree Tilt (review)<br>617. Merge Two Binary Trees (review) |
 | Wed | 513. Find Bottom Left Tree Value |
-| Thu | 112. Path Sum |
+| Thu | 112. Path Sum<br>653. Two Sum IV - Input is a BST<br>872. Leaf-Similar Trees (review) |
 | Fri | 106. Construct Binary Tree from Inorder and Postorder Traversal |
 | Sat | 654. Maximum Binary Tree |
 | Sun | Review 112, 106 and 654 |
@@ -185,10 +187,10 @@ The major distinction this week is:
 
 | Day | LeetCode |
 | --- | --- |
-| Mon | 700. Search in a Binary Search Tree |
+| Mon | 700. Search in a Binary Search Tree<br>938. Range Sum of BST<br>783. Minimum Distance Between BST Nodes |
 | Tue | 98. Validate Binary Search Tree |
-| Wed | 530. Minimum Absolute Difference in a BST |
-| Thu | 501. Find Mode in Binary Search Tree |
+| Wed | 530. Minimum Absolute Difference in a BST<br>783. Minimum Distance Between BST Nodes (review)<br>897. Increasing Order Search Tree (review) |
+| Thu | 501. Find Mode in Binary Search Tree<br>108. Convert Sorted Array to Binary Search Tree<br>938. Range Sum of BST (review) |
 | Fri | 236. Lowest Common Ancestor of a Binary Tree |
 | Sat | 235. Lowest Common Ancestor of a BST |
 | Sun | Compare LC 236 and LC 235 |
@@ -200,7 +202,7 @@ The major distinction this week is:
 | Mon | 701. Insert into a Binary Search Tree |
 | Tue | 450. Delete Node in a BST |
 | Wed | 669. Trim a Binary Search Tree |
-| Thu | 108. Convert Sorted Array to BST |
+| Thu | 108. Convert Sorted Array to BST<br>100. Same Tree (review)<br>101. Symmetric Tree (review) |
 | Fri | 538. Convert BST to Greater Tree |
 | Sat | Timed tree set: 102, 98 and 236 |
 | Sun | Tree-module review |
@@ -262,7 +264,7 @@ void backtrack(...) {
 | Mon | 47. Permutations II |
 | Tue | 332. Reconstruct Itinerary |
 | Wed | 51. N-Queens |
-| Thu | 455. Assign Cookies |
+| Thu | 455. Assign Cookies<br>860. Lemonade Change<br>1710. Maximum Units on a Truck |
 | Fri | 376. Wiggle Subsequence |
 | Sat | 53. Maximum Subarray |
 | Sun | Backtracking review |
@@ -301,9 +303,9 @@ Treat Sudoku as optional. N-Queens is sufficient for learning two-dimensional ba
 
 | Day | LeetCode |
 | --- | --- |
-| Mon | 509. Fibonacci Number |
-| Tue | 70. Climbing Stairs |
-| Wed | 746. Min Cost Climbing Stairs |
+| Mon | 509. Fibonacci Number<br>1137. N-th Tribonacci Number<br>1025. Divisor Game |
+| Tue | 70. Climbing Stairs<br>338. Counting Bits<br>392. Is Subsequence |
+| Wed | 746. Min Cost Climbing Stairs<br>1646. Get Maximum in Generated Array<br>1025. Divisor Game (review) |
 | Thu | 62. Unique Paths |
 | Fri | 63. Unique Paths II |
 | Sat | 343. Integer Break |
@@ -353,7 +355,7 @@ for item
 | Mon | 198. House Robber |
 | Tue | 213. House Robber II |
 | Wed | 337. House Robber III |
-| Thu | 121. Best Time to Buy and Sell Stock |
+| Thu | 121. Best Time to Buy and Sell Stock<br>118. Pascal's Triangle<br>119. Pascal's Triangle II |
 | Fri | 300. Longest Increasing Subsequence |
 | Sat | 1143. Longest Common Subsequence |
 | Sun | DP review |
@@ -417,8 +419,8 @@ The repository itself is structured as an approximately 200-problem progression 
 
 By December 31:
 
-- Approximately 125–140 unique problems
-- Approximately 180–220 total submissions, including repeated attempts
+- Approximately 180–200 unique problems
+- Approximately 270–330 total submissions, including repeated attempts
 - All essential array, list, hash, string, stack, tree, backtracking, greedy and core-DP patterns
 - At least 30 problems solved twice
 - At least 15 problems solved three times
