@@ -6,11 +6,11 @@
 
 | Day | LeetCode |
 | --- | --- |
-| Mon | 704. Binary Search<br>69. Sqrt(x)<br>374. Guess Number Higher or Lower |
-| Tue | 35. Search Insert Position<br>744. Find Smallest Letter Greater Than Target<br>1539. Kth Missing Positive Number |
-| Wed | 27. Remove Element<br>88. Merge Sorted Array<br>905. Sort Array By Parity |
-| Thu | 977. Squares of a Sorted Array<br>1089. Duplicate Zeros<br>1299. Replace Elements with Greatest Element on Right Side |
-| Fri | 26. Remove Duplicates from Sorted Array<br>268. Missing Number<br>136. Single Number |
+| Mon | 704. Binary Search |
+| Tue | 35. Search Insert Position |
+| Wed | 27. Remove Element |
+| Thu | 977. Squares of a Sorted Array |
+| Fri | 26. Remove Duplicates from Sorted Array |
 | Sat | 283. Move Zeroes<br>941. Valid Mountain Array<br>485. Max Consecutive Ones |
 | Sun | Review 704, 27 and 977 |
 
@@ -25,12 +25,12 @@
 
 | Day | LeetCode |
 | --- | --- |
-| Mon | 209. Minimum Size Subarray Sum |
-| Tue | 904. Fruit Into Baskets |
-| Wed | 59. Spiral Matrix II |
-| Thu | 54. Spiral Matrix |
-| Fri | 724. Find Pivot Index<br>1480. Running Sum of 1d Array<br>1732. Find the Highest Altitude |
-| Sat | 560. Subarray Sum Equals K |
+| Mon | 209. Minimum Size Subarray Sum<br>Warm-up: 69. Sqrt(x), 374. Guess Number Higher or Lower |
+| Tue | 904. Fruit Into Baskets<br>Warm-up: 744. Find Smallest Letter Greater Than Target, 1539. Kth Missing Positive Number |
+| Wed | 59. Spiral Matrix II<br>Warm-up: 88. Merge Sorted Array, 905. Sort Array By Parity |
+| Thu | 54. Spiral Matrix<br>Warm-up: 1089. Duplicate Zeros, 1299. Replace Elements with Greatest Element on Right Side |
+| Fri | 724. Find Pivot Index<br>Warm-up: 1480. Running Sum of 1d Array, 1732. Find the Highest Altitude, 268. Missing Number |
+| Sat | 560. Subarray Sum Equals K<br>Warm-up: 136. Single Number |
 | Sun | Review 209, 59 and 560 |
 
 **Stretch problem:** 76. Minimum Window Substring
