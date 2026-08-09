@@ -9,3 +9,4 @@
 | 2026-08-07 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Two Pointers | Yes | 第一次解用了兩個while比較醜一點，後來問AI哪邊可以改善，他建議可以用for，反正指標範圍是固定的，就不用跑到兩個while |
 | 2026-08-08 | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Two Pointers | Yes | 第一次解想用換的，但發現題目要求要讓非零元素保持原本順序；後來想到要固定慢指標來確保順序 |
 | 2026-08-08 | [941. Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/) | Array Traversal | Yes | 第一次腦子想說同一天應該都同類型，下意識就想用雙指標，一個從頭掃，一個從尾巴掃，但實際寫發現這樣也不能同時運作，迴圈只能一次跑一邊，但也就將錯就錯，也能解開；後來問AI如何優化，便提點說其實不用雙指標 |
+| 2026-08-09 | [485. Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Array Traversal | Yes | 第一次的解法很直白但效率上也是O(n)，後續問AI有無其他解法，它提供了sliding window的想法，透過一個lastZero變數鎖定最後一個0的index，每一回的迴圈指標都去算距離，並與當前max值比較，並且lastZero有個初始值巧思，能夠讓邊界條件順利運作。 會有這個解法其實也是有其他follow up題目(1004: Max Consecutive Ones III)，到時候用sliding window可以順道解決其他應用情境 |
