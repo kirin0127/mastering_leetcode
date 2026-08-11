@@ -25,7 +25,7 @@
 
 | Day | LeetCode |
 | --- | --- |
-| Mon | 209. Minimum Size Subarray Sum<br>Warm-up: 69. Sqrt(x) (**should solve again, and try Newton**), 374. Guess Number Higher or Lower (**Not solve yet**) |
+| Mon | 209. Minimum Size Subarray Sum<br>Warm-up: 69. Sqrt(x) (**should solve again, and try Newton**), 374. Guess Number Higher or Lower |
 | Tue | 904. Fruit Into Baskets<br>Warm-up: 744. Find Smallest Letter Greater Than Target, 1539. Kth Missing Positive Number |
 | Wed | 59. Spiral Matrix II<br>Warm-up: 88. Merge Sorted Array, 905. Sort Array By Parity |
 | Thu | 54. Spiral Matrix<br>Warm-up: 1089. Duplicate Zeros, 1299. Replace Elements with Greatest Element on Right Side |
