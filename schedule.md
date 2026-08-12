@@ -27,7 +27,7 @@
 | --- | --- |
 | Mon | 209. Minimum Size Subarray Sum<br>Warm-up: 69. Sqrt(x) (**should solve again, and try Newton**), 374. Guess Number Higher or Lower |
 | Tue | 904. Fruit Into Baskets<br>Warm-up: 744. Find Smallest Letter Greater Than Target, 1539. Kth Missing Positive Number |
-| Wed | 59. Spiral Matrix II<br>Warm-up: 88. Merge Sorted Array, 905. Sort Array By Parity |
+| Wed | 59. Spiral Matrix II<br>Warm-up: 88. Merge Sorted Array, 905. Sort Array By Parity(**not solve yet**) |
 | Thu | 54. Spiral Matrix<br>Warm-up: 1089. Duplicate Zeros, 1299. Replace Elements with Greatest Element on Right Side |
 | Fri | 724. Find Pivot Index<br>Warm-up: 1480. Running Sum of 1d Array, 1732. Find the Highest Altitude, 268. Missing Number |
 | Sat | 560. Subarray Sum Equals K<br>Warm-up: 136. Single Number |

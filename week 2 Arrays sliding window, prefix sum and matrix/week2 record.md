@@ -8,3 +8,5 @@
 | 2026-08-11 | [744. Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Binary Search | No | 下意識用暴力解，題型設計上暴力解也不會慢O(n)，但其實可以用binary search解會更有效率O(logn)，但我對binary search解法有點模糊 |
 | 2026-08-11 | [1539. Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/) | Binary Search | No | 原本想請copilot給我提示要怎麼用binary serach解，不過他直接把解法說明了，但最後的答案表達我覺得很難懂，我以為是copilot表達錯誤，結果那個算式真的就是答案。看我第二次解會不會還記得。|
 | 2026-08-11 | [904. Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | Sliding Window | Yes(again) | 第一次有解出來但很醜，有請AI優化，差很多。應該要再寫一次，我覺得會很醜就是代表想得不夠透徹。 |
+| 2026-08-12 | [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | Two Pointers | No | 本來的想法是對的，但是實作上讓我要處理一堆邊界問題，後來問AI提示，他又直接把答案寫出來= =就看到了，只要換個寫法一切都很順；還有個問題是我沒看出題目給的提示，用了消耗記憶體空間的寫法。 |
+| 2026-08-12 | [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | Matrix | No | 有些想法，但寫成code會很複雜；後來看解答發現要先找出規律候用變數代表，在解題。 |
