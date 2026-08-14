@@ -12,3 +12,4 @@
 | 2026-08-12 | [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | Matrix | No | 有些想法，但寫成code會很複雜；後來看解答發現要先找出規律候用變數代表，在解題。 |
 | 2026-08-13 | [1089. Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/) | Two Pointers | No | 一開始覺得用挪的會很麻煩，應該有更fansy的解法，結果一直解不出來；最後看以前提交通過的紀錄，就是用挪的= = |
 | 2026-08-13 | [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Matrix | No | 今天狀態不佳，直接看解答寫了 |
+| 2026-08-14 | [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Prefix Sum | Yes | 初始條件覺得不夠漂亮，看了其他解答，發現確實有更漂亮的解法，先用表達式列出公式，就可以找到漂亮解法 |
