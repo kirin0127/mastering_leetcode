@@ -14,3 +14,4 @@
 | 2026-08-13 | [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Matrix | No | 今天狀態不佳，直接看解答寫了 |
 | 2026-08-14 | [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Prefix Sum | Yes | 初始條件覺得不夠漂亮，看了其他解答，發現確實有更漂亮的解法，先用表達式列出公式，就可以找到漂亮解法 |
 | 2026-08-15 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Prefix Sum | No | 一開始下意識用sliding window解，後來發現題目的array並沒有排序，用sliding window變得沒意義；後來想請AI給提示，他又直接給答案= =後來就直接研究答案的想法了 |
+| 2026-08-15 | [136. Single Number](https://leetcode.com/problems/single-number/) | Bit Manipulation | Yes | 一開始用map的解法，偏暴力但可以過，因為效率也是O(n)；後來總覺得有其他解法，看其他人解答時大家都是用XOR運算子，確實是最乾淨的解法。 |
