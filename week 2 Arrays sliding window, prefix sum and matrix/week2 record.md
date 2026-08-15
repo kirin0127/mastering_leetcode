@@ -15,3 +15,8 @@
 | 2026-08-14 | [724. Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | Prefix Sum | Yes | 初始條件覺得不夠漂亮，看了其他解答，發現確實有更漂亮的解法，先用表達式列出公式，就可以找到漂亮解法 |
 | 2026-08-15 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Prefix Sum | No | 一開始下意識用sliding window解，後來發現題目的array並沒有排序，用sliding window變得沒意義；後來想請AI給提示，他又直接給答案= =後來就直接研究答案的想法了 |
 | 2026-08-15 | [136. Single Number](https://leetcode.com/problems/single-number/) | Bit Manipulation | Yes | 一開始用map的解法，偏暴力但可以過，因為效率也是O(n)；後來總覺得有其他解法，看其他人解答時大家都是用XOR運算子，確實是最乾淨的解法。 |
+| 2026-08-15 | [905. Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/) | Two Pointers | Yes | 有一次解出來，但前置作業其實不用，主要邏輯部分其實就可以解決原本擔心的問題 |
+| 2026-08-15 | [1299. Replace Elements with Greatest Element on Right Side](https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/) | Array Traversal | Yes | 第一次偏暴力解，O(n^2) 還是給過，後來看其他人解答發現應該換個方向跑，就可以O(n) |
+| 2026-08-15 | [1480. Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/) | Prefix Sum | Yes | 和上一題太像了哈哈所以一看就知道在耍甚麼把戲 |
+| 2026-08-15 | [1732. Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | Prefix Sum | Yes | 沒任何把戲，感覺是在考閱讀測驗 |
+| 2026-08-15 | [268. Missing Number](https://leetcode.com/problems/missing-number/) | Bit Manipulation | Yes | 一開始也算暴力解，但剛好暴力解也是O(n)；後來看其他人答案看到xor的解法，花了點時間了解 |
