@@ -8,7 +8,7 @@
 | 2026-08-18 | [707. Design Linked List](https://leetcode.com/problems/design-linked-list/) | Linked List Design | No | No | 一兩個方法dummy node搞錯當前位置，小問題，我覺得概念懂就不用再解了 |
 | 2026-08-19 | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Linked List |  |  |  |
 | 2026-08-19 | [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Linked List |  |  |  |
-| 2026-08-19 | [1290. Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Linked List |  |  |  |
+| 2026-08-19 | [1290. Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Linked List | Yes | Yes | 有一次解出，但是是凡人解法，一個一個跑然後用2的指數去乘；後來有理解位元解法。 |
 | 2026-08-20 | [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Linked List |  |  |  |
 | 2026-08-21 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Fast and Slow Pointers |  |  |  |
 | 2026-08-22 | [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Two Pointers |  |  |  |
