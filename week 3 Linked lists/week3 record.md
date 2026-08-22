@@ -11,7 +11,7 @@
 | 2026-08-19 | [1290. Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | Linked List | Yes | Yes | 有一次解出，但是是凡人解法，一個一個跑然後用2的指數去乘；後來有理解位元解法。 |
 | 2026-08-20 | [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Linked List | Yes | Yes | 算是用暴力解，解答區有很漂亮的遞迴解法 |
 | 2026-08-21 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Fast and Slow Pointers | Yes | No | 一開始想不太出來，看了提示後有想出來要用遞迴，讚 |
-| 2026-08-22 | [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Two Pointers |  |  |  |
+| 2026-08-22 | [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | Two Pointers | Yes | No | 依稀有點印象怎麼解，但寫了兩個解法都有問題，最後才想到該如何用那個概念 |
 | 2026-08-22 | [876. Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) (review) | Fast and Slow Pointers |  |  |  |
 | 2026-08-22 | [1290. Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) (review) | Linked List |  |  |  |
 | 2026-08-23 | Review<br>[206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)<br>[24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)<br>[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Review |  |  |  |
