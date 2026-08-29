@@ -13,5 +13,5 @@
 | 2026-08-28 | [707. Design Linked List](https://leetcode.com/problems/design-linked-list/) (redo) | Linked List Design | Yes | Yes | 其實上禮拜就寫過了又被安排一次，本來很不想寫，但想說算了先按照計劃走，後來問AI如何改善，發現不錯的想法，週日再寫一次看看能不能更乾淨 |
 | 2026-08-29 | [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) (timed set) | Linked List | Yes | No | 一開始計時就會很慌忙哈哈，提交了幾次邏輯其實都不對，後來冷靜下來才想到真正解法 |
 | 2026-08-29 | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) (timed set) | Linked List | Yes | No | 感覺是經典題，一開始想法是遞迴，也順利解出，後來總覺得上禮拜寫不是用遞迴，喵一下歷史提交也確實不是，就也想了一下如何不用遞迴解 |
-| 2026-08-29 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) (timed set) | Fast and Slow Pointers |  |  |  |
+| 2026-08-29 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) (timed set) | Fast and Slow Pointers | Yes | Yes | 解法沒問題但一開始test case都錯，後來發現犯了--的錯誤= =<br>後來發現AI之前歸類這題在快慢指標，看了解答區的概念試著寫了一遍。感覺我有點太依賴遞迴 |
 | 2026-08-30 | Write linked-list templates from memory: `ListNode reverse(ListNode head)`, `ListNode findMiddle(ListNode head)`, `boolean hasCycle(ListNode head)` | Template Writing |  |  |  |
