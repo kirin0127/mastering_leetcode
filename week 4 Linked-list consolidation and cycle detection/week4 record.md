@@ -10,8 +10,8 @@
 | 2026-08-27 | [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Fast and Slow Pointers | Yes | Yes | 用遞迴解出來，不過題目有追問能不能讓空間O(1)，暫時還沒想，先寫下一題 |
 | 2026-08-27 | [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) (review) | Linked List | Yes | No | 真 easy題 |
 | 2026-08-27 | [1290. Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) (review) | Linked List | Yes | No | 總覺得這題被AI安排很多次，這周末會再跑一次，讓他不要重複題目 |
-| 2026-08-28 | [707. Design Linked List](https://leetcode.com/problems/design-linked-list/) (redo) | Linked List Design |  |  |  |
-| 2026-08-29 | [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) (timed set) | Linked List |  |  |  |
-| 2026-08-29 | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) (timed set) | Linked List |  |  |  |
+| 2026-08-28 | [707. Design Linked List](https://leetcode.com/problems/design-linked-list/) (redo) | Linked List Design | Yes | Yes | 其實上禮拜就寫過了又被安排一次，本來很不想寫，但想說算了先按照計劃走，後來問AI如何改善，發現不錯的想法，週日再寫一次看看能不能更乾淨 |
+| 2026-08-29 | [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) (timed set) | Linked List | Yes | No | 一開始計時就會很慌忙哈哈，提交了幾次邏輯其實都不對，後來冷靜下來才想到真正解法 |
+| 2026-08-29 | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) (timed set) | Linked List | Yes | No | 感覺是經典題，一開始想法是遞迴，也順利解出，後來總覺得上禮拜寫不是用遞迴，喵一下歷史提交也確實不是，就也想了一下如何不用遞迴解 |
 | 2026-08-29 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) (timed set) | Fast and Slow Pointers |  |  |  |
 | 2026-08-30 | Write linked-list templates from memory: `ListNode reverse(ListNode head)`, `ListNode findMiddle(ListNode head)`, `boolean hasCycle(ListNode head)` | Template Writing |  |  |  |
