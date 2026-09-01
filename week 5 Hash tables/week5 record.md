@@ -5,9 +5,9 @@
 | 2026-08-31 | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Hash Table | Yes | No | 解法多了一個迴圈，不過我覺得還好，沒有差很多，核心概念一樣 |
 | 2026-08-31 | [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | Hash Table | No | Yes | 一開始的解法有問題，看了解答區才自己寫一遍 |
 | 2026-08-31 | [387. First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) | Hash Table | Yes | No | 有想出解法，實現過程有卡一下，不過還是有順利解出來 |
-| 2026-09-01 | [1002. Find Common Characters](https://leetcode.com/problems/find-common-characters/) | Hash Table |  |  |  |
-| 2026-09-01 | [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | Hash Set |  |  |  |
-| 2026-09-01 | [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | Hash Table |  |  |  |
+| 2026-09-01 | [1002. Find Common Characters](https://leetcode.com/problems/find-common-characters/) | Hash Table | Yes | Yes | 比想像中難纏，解法有點醜，但好像無可避免。以前有解過，應該是經典題，禮拜天再解一次 |
+| 2026-09-01 | [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | Hash Set | Yes | No | 真 easy題 |
+| 2026-09-01 | [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | Hash Table | Yes | No | 也是真 easy題 |
 | 2026-09-02 | [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | Hash Set |  |  |  |
 | 2026-09-02 | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Hash Table |  |  |  |
 | 2026-09-02 | [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | Hash Table |  |  |  |
