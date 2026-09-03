@@ -8,9 +8,9 @@
 | 2026-09-01 | [1002. Find Common Characters](https://leetcode.com/problems/find-common-characters/) | Hash Table | Yes | Yes | 比想像中難纏，解法有點醜，但好像無可避免。以前有解過，應該是經典題，禮拜天再解一次 |
 | 2026-09-01 | [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | Hash Set | Yes | No | 真 easy題 |
 | 2026-09-01 | [1160. Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | Hash Table | Yes | No | 也是真 easy題 |
-| 2026-09-02 | [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | Hash Set |  |  |  |
-| 2026-09-02 | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Hash Table |  |  |  |
-| 2026-09-02 | [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | Hash Table |  |  |  |
+| 2026-09-02 | [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | Hash Set | Yes | No | 解法可以更乾淨，但我覺得核心觀念一樣 |
+| 2026-09-02 | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | Hash Table | Yes | No | 真easy |
+| 2026-09-02 | [1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) | Hash Table | Yes | No | 原本擔心一直狂用collection解會不會算作弊，但解答區其實也只是把map用成array一個蘿蔔一個坑，概念是一樣的 |
 | 2026-09-03 | [202. Happy Number](https://leetcode.com/problems/happy-number/) | Hash Set |  |  |  |
 | 2026-09-03 | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Hash Set |  |  |  |
 | 2026-09-03 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | Hash Table |  |  |  |

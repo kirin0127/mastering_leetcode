@@ -1,0 +1,4 @@
+interface:
+  display_name: "LeetCode Java Module"
+  short_description: "Scaffold one LeetCode Java problem with tests"
+  default_prompt: "Use $leetcode-java-module to create an IDE-ready Java module for this LeetCode problem URL."
