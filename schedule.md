@@ -84,7 +84,7 @@ boolean hasCycle(ListNode head)
 | 30 | Tue | 1002. Find Common Characters<br>771. Jewels and Stones<br>1160. Find Words That Can Be Formed by Characters |
 | 31 | Wed | 349. Intersection of Two Arrays<br>350. Intersection of Two Arrays II<br>1207. Unique Number of Occurrences |
 | 32 | Thu | 202. Happy Number<br>217. Contains Duplicate<br>219. Contains Duplicate II |
-| 33 | Fri | 1. Two Sum<br>167. Two Sum II - Input Array Is Sorted<br>1929. Concatenation of Array |
+| 33 | Fri | 1. Two Sum<br>167. Two Sum II - Input Array Is Sorted<br>1929. Concatenation of Array<br>1512. Number of Good Pairs |
 | 34 | Sat | 454. 4Sum II |
 | 35 | Sun | Review 242, 1 and 454 |
 
