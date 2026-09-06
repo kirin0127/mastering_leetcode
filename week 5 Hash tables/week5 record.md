@@ -19,6 +19,3 @@
 | 2026-09-04 | [1929. Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/) | Array | Yes | No | 這題當初放錯位子了，也沒什麼重點 |
 | 2026-09-04 | [1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/) | Hash Table | Yes | No | 要有點數學推導 |
 | 2026-09-05 | [454. 4Sum II](https://leetcode.com/problems/4sum-ii/) | Hash Table | No | Yes | 沒想出來，看了提示才想到以前解過 |
-| 2026-09-06 | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/) (review) | Hash Table |  |  |  |
-| 2026-09-06 | [1. Two Sum](https://leetcode.com/problems/two-sum/) (review) | Hash Table |  |  |  |
-| 2026-09-06 | [454. 4Sum II](https://leetcode.com/problems/4sum-ii/) (review) | Hash Table |  |  |  |
