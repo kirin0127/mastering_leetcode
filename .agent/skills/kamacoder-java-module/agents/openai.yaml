@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kamacoder Java Module"
+  short_description: "Scaffold Kamacoder Java console code and sample tests"
+  default_prompt: "Use $kamacoder-java-module to create an unsolved Java practice package in PlayGround for this Kamacoder problem URL, with console input/output and local sample tests."
