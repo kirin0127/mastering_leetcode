@@ -58,6 +58,20 @@ public class Main {
     }
 
     static String rotateRight(String s, int k) {
-        throw new UnsupportedOperationException("Not implemented yet");
+        char[] chars = new char[s.length()];
+        int head = s.length() - k;
+        int idx = 0;
+        while(head < s.length()){
+            chars[idx] = s.charAt(head);
+            idx++;
+            head++;
+        }
+        int remain = 0;
+        while(idx < s.length()){
+            chars[idx] = s.charAt(remain);
+            idx++;
+            remain++;
+        }
+        return new String(chars);
     }
 }
