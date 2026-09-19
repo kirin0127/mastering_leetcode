@@ -13,7 +13,7 @@
 | 2026-09-18 | [1047. Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | Stack / String | Yes | No | 簡單的stack應用題 |
 | 2026-09-18 | [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Binary Tree Traversal | Yes | Yes | 第一次用遞迴解，但如果用stack沒想出來 |
 | 2026-09-18 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Binary Tree Traversal | Yes | Yes | 第一次用遞迴解，但如果用stack沒想出來 |
-| 2026-09-19 | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Stack |  |  |  |
+| 2026-09-19 | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Stack | Yes | No | 不曉得為啥這題是medium，應該是easy |
 
 ## Sunday Review · 2026-09-20
 
