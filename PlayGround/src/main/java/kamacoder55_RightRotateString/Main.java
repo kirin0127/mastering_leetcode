@@ -58,6 +58,38 @@ public class Main {
     }
 
     static String rotateRight(String s, int k) {
+        char[] arr = s.toCharArray();
+        int head = 0;
+        int tail = arr.length - 1;
+        while(head < tail){
+            char temp = arr[tail];
+            arr[tail] = arr[head];
+            arr[head] = temp;
+            head++;
+            tail--;
+        }
+        head = 0;
+        tail = k - 1;
+        while(head < tail){
+            char temp = arr[tail];
+            arr[tail] = arr[head];
+            arr[head] = temp;
+            head++;
+            tail--;
+        }
+        head = k;
+        tail = arr.length - 1;
+        while(head < tail){
+            char temp = arr[tail];
+            arr[tail] = arr[head];
+            arr[head] = temp;
+            head++;
+            tail--;
+        }
+        return new String(arr);
+    }
+
+    static String rotateRight_bruteForce(String s, int k) {
         char[] chars = new char[s.length()];
         int head = s.length() - k;
         int idx = 0;
