@@ -5,8 +5,8 @@ Selected from Week 7's record where **Should Solve Again = Yes**. The result fie
 | No. | Problem | Difficulty | Solved Independently | Should Solve Again | Feedback |
 | --- | --- | --- | --- | --- | --- |
 | 1 | [Kama 55. 右旋字符串](https://kamacoder.com/problempage.php?pid=1065) | Unrated (Kamacoder) | Yes | No | 反轉三次的好處在於可以in place處理(不過對於java而言String轉char[]的過程已經耗費O(n)的空間了其實) |
-| 2 | [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | Easy |  |  |  |
-| 3 | [459. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/) | Easy |  |  |  |
+| 2 | [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | Easy | No | Yes | 我覺得之後一定還是會忘記，多寫幾次吧 |
+| 3 | [459. Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/) | Easy | No | Yes | 就算目前對KMP還記得原理，也想不出怎麼應用，這個要應用KMP也有點難 |
 | 4 | [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | Easy | Yes | No | 一開始卡了一下，果然只要是看解答寫的都會當下感覺懂，但其實沒有完全了解細節，這次有完整想過一遍 |
 | 5 | [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | Easy | Yes | No | 有試著用stack想出來 |
 | 6 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | Easy | No | Yes | 想不出來，卡在不曉得如何處理底下的右節點；問AI後才知道解法 |
