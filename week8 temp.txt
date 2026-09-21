@@ -1,0 +1,28 @@
+class Solution {
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        TreeMap<Integer, Integer> map = new TreeMap<>();
+        for(int i = 0; i < k - 1; i++){
+            int count = map.computeIfAbsent(nums[i], key -> 0);
+            map.put(nums[i], count + 1);
+        }
+        int idx = k - 1;
+        int[] ans = new int[nums.length - k + 1];
+        while(idx < nums.length){
+            int count = map.computeIfAbsent(nums[idx], key -> 0);
+            map.put(nums[idx], count + 1);
+
+            int head = idx - k + 1;
+            ans[head] = map.lastEntry().getKey();
+
+            int headCount = map.get(nums[head]);
+            if(headCount - 1 == 0){
+                map.remove(nums[head]);
+            }else{
+                map.put(nums[head], headCount - 1);
+            }
+            
+            idx++;
+        }
+        return ans;
+    }
+}
