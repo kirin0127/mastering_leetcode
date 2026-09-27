@@ -9,7 +9,7 @@
 | Day52 | 2026-09-23 | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Binary Tree / Recursion | Yes | Yes | 用遞迴解開，但有3種follow up也要順一遍 |
 | Day53 | 2026-09-24 | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Binary Tree / BFS | Yes | No | BFS經典題 |
 | Day54 | 2026-09-25 | [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | Binary Tree / Recursion | Yes | Yes | 想了一陣子才想出來，而且第一次提交有瑕疵。問AI意見後可以更精簡，也還有queue的解法要試著寫 |
-| Day54 | 2026-09-25 | [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | Binary Tree / Recursion |  |  |  |
+| Day54 | 2026-09-25 | [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | Binary Tree / Recursion | No | Yes | 一開始想用遞迴但寫不出來，後來對BFS有明確想法，但是queue不能塞null而寫不出來 |
 | Day54 | 2026-09-25 | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Binary Tree / Recursion |  |  |  |
 | Day55 | 2026-09-26 | [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | Binary Tree / DFS, BFS |  |  |  |
 | Day55 | 2026-09-26 | [110. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | Binary Tree / Postorder |  |  |  |
