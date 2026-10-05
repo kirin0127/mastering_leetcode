@@ -10,7 +10,7 @@ Selected from Week 9's record where **Should Solve Again = Yes**. The result fie
 | 4 | [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | Easy | Yes | No | 一開始還是下意識用了遞迴 |
 | 5 | [513. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | Medium |  |  |  |
 | 6 | [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | Medium |  |  |  |
-| 7 | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium |  |  |  |
+| 7 | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | No | Yes | 還是卡在一層一層的想法，但其實這題要跳多一般的遞迴思路，要思考的是BST的特性 |
 
 ## Review Focus
 
