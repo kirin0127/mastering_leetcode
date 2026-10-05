@@ -8,8 +8,8 @@
 | Day58 | 2026-09-29 | [700. Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/) | BST / Search | Yes | Yes | 可以不需要遞迴，讓空間O(1) |
 | Day59 | 2026-09-30 | [513. Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | Binary Tree / BFS, DFS | Yes | Yes | BFS只要改個小地方整個變得非常漂亮；也可以用DFS解，還沒解過 |
 | Day60 | 2026-10-01 | [106. Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | Binary Tree / Construction | No | Yes | 其實有想到一些重點，但今天剛看完棒球好累，後來直接看解答後寫 |
-| Day61 | 2026-10-02 | [654. Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | Binary Tree / Construction |  |  |  |
-| Day62 | 2026-10-03 | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | BST / Inorder Traversal |  |  |  |
+| Day61 | 2026-10-02 | [654. Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/) | Binary Tree / Construction | Yes | No | 和昨天那題106幾乎一樣，不過更簡單，直接給你指引，不像106要想出解法 |
+| Day62 | 2026-10-03 | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | BST / Inorder Traversal | No | Yes | 太累了先看解答寫，對概念也還沒有很懂 |
 
 ## Sunday Review · 2026-10-04 (Day63)
 
