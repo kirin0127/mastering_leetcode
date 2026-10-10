@@ -9,7 +9,7 @@
 | Day66 | 2026-10-07 | [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | BST | Yes | No | 昨天那題有解過後這題BST概念八成一樣 |
 | Day67 | 2026-10-08 | [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | BST / Modification | Yes | Yes | 遞迴解法可以更精簡，以及iterative解法也要試著解解看 |
 | Day68 | 2026-10-09 | [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | BST / Modification | No | Yes | 有想法但寫錯，也沒看出為什麼錯...要注意BST特性，一開始想法直接會違反BST |
-| Day69 | 2026-10-10 | [669. Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | BST / Recursion |  |  |  |
+| Day69 | 2026-10-10 | [669. Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | BST / Recursion | Yes | Yes | 有解出來但一開始太拘泥於要刪除節點，忽略其實BST的特性不需要去做elevate就可以略過不在範圍內的節點 |
 
 ## Sunday Review · 2026-10-11 (Day70)
 
