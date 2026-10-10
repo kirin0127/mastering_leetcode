@@ -8,8 +8,8 @@ Selected from Week 10's record where **Should Solve Again = Yes**. The result fi
 | 2 | [455. Assign Cookies](https://leetcode.com/problems/assign-cookies/) | Easy | Yes | No | 順利解出 |
 | 3 | [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Medium | Yes | Yes | 有意思的遞迴題 |
 | 4 | [701. Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | Medium | Yes | Yes | 看似很簡單但實際寫有滿多眉角 |
-| 5 | [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | Medium |  |  |  |
-| 6 | [669. Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | Medium |  |  |  |
+| 5 | [450. Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | Medium | Yes | Yes | 和leetcode701類似概念，看之後還記不記得刪節點的要點 |
+| 6 | [669. Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/) | Medium | Yes | Yes | 概念沒那麼直覺我覺得，要對BST很有感，但我目前還沒有 |
 
 ## Review Focus
 
