@@ -7,7 +7,7 @@
 | Day73 | 2026-10-14 | [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | Backtracking / Combinations / Pruning | Yes | Yes | 有自己解出來，不過少了pruning |
 | Day74 | 2026-10-15 | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Backtracking / String | Yes | No | AI有給出不錯的優化，不過我覺得影響不大 |
 | Day75 | 2026-10-16 | [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | Backtracking / Combinations | Yes | Yes | 有些優化可以做，不過大方向概念有抓到 |
-| Day76 | 2026-10-17 | [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Backtracking / Deduplication |  |  |  |
+| Day76 | 2026-10-17 | [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Backtracking / Deduplication | Yes | Yes | 這題應該是最難的，有個tricky的地方，不過也有慢慢拆解出解法 |
 
 ## Sunday Review · 2026-10-18 (Day77)
 
