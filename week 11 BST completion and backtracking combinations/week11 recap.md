@@ -4,11 +4,11 @@ Selected from Week 11's record where **Should Solve Again = Yes**. The result fi
 
 | No. | Problem | Difficulty | Solved Independently | Should Solve Again | Feedback |
 | --- | --- | --- | --- | --- | --- |
-| 1 | [538. Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | Medium |  |  |  |
-| 2 | [77. Combinations](https://leetcode.com/problems/combinations/) | Medium |  |  |  |
-| 3 | [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | Medium |  |  |  |
-| 4 | [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium |  |  |  |
-| 5 | [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium |  |  |  |
+| 1 | [538. Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | Medium | Yes | No | 對iterative的binary tree遍歷真的很不拿手，一開始也是卡在infinite loop，後來冷靜重新分析後才寫出來 |
+| 2 | [77. Combinations](https://leetcode.com/problems/combinations/) | Medium | Yes | No | backtracking基礎題 |
+| 3 | [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | Medium | Yes | Yes | 被backtracking起始值寫錯搞很久，沒想到這那邊寫錯 |
+| 4 | [39. Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | Yes | No | 應該是說target判讀的優化，不用另外宣告一個sum去判斷 |
+| 5 | [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Medium | Yes | Yes | 這題真的tricky，看我之後還能不能想到 |
 
 ## Review Focus
 
