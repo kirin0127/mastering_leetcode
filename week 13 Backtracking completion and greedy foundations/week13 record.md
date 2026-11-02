@@ -9,7 +9,7 @@
 | Day89 | 2026-10-30 | [860. Lemonade Change](https://leetcode.com/problems/lemonade-change/) | Greedy / Simulation | Yes | No | 終於有easy了，可用常識解題 |
 | Day89 | 2026-10-30 | [1005. Maximize Sum Of Array After K Negations](https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/) | Greedy / Sorting | Yes | Yes | 可以再優化不過概念一樣 |
 | Day89 | 2026-10-30 | [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | Dynamic Programming / Rolling State | Yes | Yes | 有用dp寫出來但是空間上可以更優化 |
-| Day90 | 2026-10-31 | [376. Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) | Greedy / Dynamic Programming |  |  |  |
+| Day90 | 2026-10-31 | [376. Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) | Greedy / Dynamic Programming | No | Yes | 有個關鍵點沒有想到，導致沒解出來 |
 
 ## Sunday Review · 2026-11-01 (Day91)
 
