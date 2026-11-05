@@ -5,7 +5,7 @@
 | Day92 | 2026-11-02 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Greedy / Dynamic Programming | Yes | Yes | 可以更乾淨，最乾淨的版本會被稱為Kadane's algorithm |
 | Day93 | 2026-11-03 | [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | Greedy / Dynamic Programming | Yes | Yes | 也是可以更乾淨 |
 | Day94 | 2026-11-04 | [55. Jump Game](https://leetcode.com/problems/jump-game/) | Greedy / Reachability | No | Yes | 只想到backtracking解法，但這題會Time exceed limit |
-| Day95 | 2026-11-05 | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Greedy / Jump Boundaries | | | |
+| Day95 | 2026-11-05 | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Greedy / Jump Boundaries | No | Yes | 慘敗，真的是想不出來，迴圈的條件也有巧妙之處 |
 | Day96 | 2026-11-06 | [134. Gas Station](https://leetcode.com/problems/gas-station/) | Greedy / Circular Array | | | |
 | Day97 | 2026-11-07 | [135. Candy](https://leetcode.com/problems/candy/) | Greedy / Two-Pass Allocation | | | |
 
