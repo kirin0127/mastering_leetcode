@@ -7,7 +7,7 @@
 | Day94 | 2026-11-04 | [55. Jump Game](https://leetcode.com/problems/jump-game/) | Greedy / Reachability | No | Yes | 只想到backtracking解法，但這題會Time exceed limit |
 | Day95 | 2026-11-05 | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/) | Greedy / Jump Boundaries | No | Yes | 慘敗，真的是想不出來，迴圈的條件也有巧妙之處 |
 | Day96 | 2026-11-06 | [134. Gas Station](https://leetcode.com/problems/gas-station/) | Greedy / Circular Array | No | Yes | 看答案寫了一遍，自己應該是想不出來 |
-| Day97 | 2026-11-07 | [135. Candy](https://leetcode.com/problems/candy/) | Greedy / Two-Pass Allocation | | | |
+| Day97 | 2026-11-07 | [135. Candy](https://leetcode.com/problems/candy/) | Greedy / Two-Pass Allocation | No | Yes | 一樣想不出來，自己的解法都會有缺陷 |
 
 ## Sunday Review · 2026-11-08 (Day98)
 
