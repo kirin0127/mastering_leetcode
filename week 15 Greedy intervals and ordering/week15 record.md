@@ -7,7 +7,7 @@
 | Day101 | 2026-11-11 | [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/) | Greedy / Interval Scheduling | Yes | No | 跟昨天那題幾乎一模一樣 |
 | Day102 | 2026-11-12 | [763. Partition Labels](https://leetcode.com/problems/partition-labels/) | Greedy / String / Partitioning | Yes | Yes | 大方向對，卡在一些小條件一開始沒寫好 |
 | Day103 | 2026-11-13 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | Sorting / Interval Merging | Yes | No | 第一次提交有地方沒顧慮到，不過看到test case就知道問題在哪，順利修正 |
-| Day104 | 2026-11-14 | [738. Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/) | Greedy / Digits |  |  |  |
+| Day104 | 2026-11-14 | [738. Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/) | Greedy / Digits | No | Yes | 慘敗，原本的想法根本行不通 |
 
 ## Sunday Review · 2026-11-15 (Day105)
 
