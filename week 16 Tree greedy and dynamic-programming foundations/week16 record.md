@@ -5,7 +5,7 @@
 | Day106 | 2026-11-16 | [968. Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/) | Greedy / Binary Tree / Tree DP | No | Yes | 想到的解法還不用解程式就知道一定不對，最後直接請AI說明解法，我再寫code，搞笑的是還寫的有瑕疵= = |
 | Day107 | 2026-11-17 | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Dynamic Programming / Complete Knapsack | Yes | No | dp經典題，一直有點印象但沒一開始就想起來，所幸後來有想到原理 |
 | Day107 | 2026-11-17 | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Two Pointers / Dynamic Programming |  |  |  |
-| Day107 | 2026-11-17 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Dynamic Programming / State Definition |  |  |  |
+| Day107 | 2026-11-17 | [746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/) | Dynamic Programming / State Definition | Yes | Yes | 只用了two pointers解，沒想到dp怎麼解，就算看了解法還是濛濛的 |
 | Day108 | 2026-11-18 | [62. Unique Paths](https://leetcode.com/problems/unique-paths/) | Dynamic Programming / Grid / Combinatorics |  |  |  |
 | Day109 | 2026-11-19 | [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | Dynamic Programming / Grid / Obstacles |  |  |  |
 | Day110 | 2026-11-20 | [343. Integer Break](https://leetcode.com/problems/integer-break/) | Dynamic Programming / Greedy |  |  |  |
