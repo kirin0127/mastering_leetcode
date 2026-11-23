@@ -1,6 +1,6 @@
-# Schedule: August 3, 2026–January 24, 2027 (lean first pass)
+# Schedule: August 3, 2026–January 31, 2027 (lean first pass)
 
-**Pace, not a hard deadline:** Aim to make steady progress toward year-end. This baseline finishes the last new problem on **January 23, 2027**, with a final Sunday review on **January 24**. Extra attempts may move completion into February; do not compress difficult topics just to protect the date.
+**Pace, not a hard deadline:** This baseline finishes the last new problem on **January 30, 2027**, with a final Sunday review on **January 31**. Extra attempts may extend the schedule into February. Keep a steady pace through difficult topics.
 
 **Daily rule from Week 6:** Monday–Saturday targets **3 Easy**, **1 Medium**, or **1 Hard** LeetCode problems. No extra Easy warm-ups on Medium/Hard days. Each unrated **Kamacoder exercise gets one full day**. If a problem needs another day, continue it and shift the remaining dates; do not stack multiple Medium/Hard problems onto one day.
 
@@ -221,120 +221,132 @@ boolean hasCycle(ListNode head)
 | Day | Date | Weekdays | Workload | Problems and perspectives |
 | --- | --- | --- | --- | --- |
 | 106 | 2026-11-16 | Mon | 1 Hard | [968. Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/)<br>Perspective: Know the postorder three-state greedy method; tree DP is another way to model the choices. |
-| 107 | 2026-11-17 | Tue | 3 Easy | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)<br>Perspective: Know the basic recurrence and the ordered-choice / complete-knapsack perspective.<br><br>[392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)<br>Perspective: Know two pointers first; also understand the subsequence-DP formulation.<br><br>[746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)<br>Perspective: Compare arriving-at-a-step and starting-from-a-step state definitions. |
-| 108 | 2026-11-18 | Wed | 1 Medium | [62. Unique Paths](https://leetcode.com/problems/unique-paths/)<br>Perspective: Compare two-dimensional DP with a rolling row; combinatorial counting is another perspective. |
-| 109 | 2026-11-19 | Thu | 1 Medium | [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)<br>Perspective: Reuse path DP while handling blocked cells and boundary initialization. |
-| 110 | 2026-11-20 | Fri | 1 Medium | [343. Integer Break](https://leetcode.com/problems/integer-break/)<br>Perspective: Know DP partitioning; understand the greedy argument favoring factors of 3. |
-| 111 | 2026-11-21 | Sat | 1 Medium | [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)<br>Perspective: Use each value as root; connect the recurrence to Catalan numbers. |
-| 112 | 2026-11-22 | Sun | Targeted review | Review DP state definitions and the complete-knapsack perspective on climbing stairs. Use flagged problems if a coding review is needed. |
+| 107 | 2026-11-17 | Tue | 2 Easy | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)<br>Perspective: Know the basic recurrence and the ordered-choice / complete-knapsack perspective.<br><br>[746. Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)<br>Perspective: Compare arriving-at-a-step and starting-from-a-step state definitions. |
+| 108 | 2026-11-18 | Wed | Travel break | Practice moved to Week 17. |
+| 109 | 2026-11-19 | Thu | Travel break | Practice moved to Week 17. |
+| 110 | 2026-11-20 | Fri | Travel break | Practice moved to Week 17. |
+| 111 | 2026-11-21 | Sat | Travel break | Practice moved to Week 17. |
+| 112 | 2026-11-22 | Sun | Travel break | Sunday review moved to Week 17. |
 
-## Week 17 · 2026-11-23–2026-11-29 — 0/1 knapsack and complete-knapsack foundations
-
-| Day | Date | Weekdays | Workload | Problems and perspectives |
-| --- | --- | --- | --- | --- |
-| 113 | 2026-11-23 | Mon | 1 Kamacoder (unrated) | [Kama 46. 0/1 Knapsack](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/%E8%83%8C%E5%8C%85%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%8001%E8%83%8C%E5%8C%85-1.md)<br>Perspective: Know both two-dimensional and one-dimensional 0/1-knapsack DP; explain descending capacity updates. |
-| 114 | 2026-11-24 | Tue | 1 Medium | [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)<br>Perspective: Translate to 0/1 knapsack; compare boolean reachability with maximum packed sum. |
-| 115 | 2026-11-25 | Wed | 1 Medium | [1049. Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)<br>Perspective: Transform stone cancellation into two groups with the smallest sum difference. |
-| 116 | 2026-11-26 | Thu | 1 Medium | [494. Target Sum](https://leetcode.com/problems/target-sum/)<br>Perspective: Know the subset-sum transformation; compare with memoized plus/minus recursion. |
-| 117 | 2026-11-27 | Fri | 1 Medium | [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)<br>Perspective: Understand two resource capacities and descending updates for both. |
-| 118 | 2026-11-28 | Sat | 1 Kamacoder (unrated) | [Kama 52. Complete Knapsack](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80%E5%AE%8C%E5%85%A8%E8%83%8C%E5%8C%85.md)<br>Perspective: Know both two-dimensional and one-dimensional complete-knapsack DP; explain ascending capacity updates. |
-| 119 | 2026-11-29 | Sun | Targeted review | Compare two-dimensional and one-dimensional knapsack; explain capacity iteration direction. Use flagged problems if a coding review is needed. |
-
-## Week 18 · 2026-11-30–2026-12-06 — Complete and bounded knapsack
+## Week 17 · 2026-11-23–2026-11-29 — Dynamic-programming foundations continued
 
 | Day | Date | Weekdays | Workload | Problems and perspectives |
 | --- | --- | --- | --- | --- |
-| 120 | 2026-11-30 | Mon | 1 Medium | [518. Coin Change II](https://leetcode.com/problems/coin-change-ii/)<br>Perspective: Count combinations with coin-first iteration; contrast with ordered sequences. |
-| 121 | 2026-12-01 | Tue | 1 Medium | [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)<br>Perspective: Count ordered sequences with target-first iteration; contrast with Coin Change II. |
-| 122 | 2026-12-02 | Wed | 1 Medium | [322. Coin Change](https://leetcode.com/problems/coin-change/)<br>Perspective: Compare minimum-count DP with BFS over reachable amounts. |
-| 123 | 2026-12-03 | Thu | 1 Medium | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)<br>Perspective: Compare minimum-count DP with BFS; number-theoretic shortcuts are optional. |
-| 124 | 2026-12-04 | Fri | 1 Medium | [139. Word Break](https://leetcode.com/problems/word-break/)<br>Perspective: Compare prefix DP with memoized segmentation; explain why naive recursion repeats work. |
-| 125 | 2026-12-05 | Sat | 1 Kamacoder (unrated) | [Kama 56. Multiple Knapsack](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80%E5%A4%9A%E9%87%8D%E8%83%8C%E5%8C%85.md)<br>Perspective: Understand bounded counts and conversion to 0/1 items; binary grouping is an optional optimization. |
-| 126 | 2026-12-06 | Sun | Targeted review | Explain combinations versus permutations, bounded counts, and segmentation states. Use flagged problems if a coding review is needed. |
+| 113 | 2026-11-23 | Mon | 1 Easy | [392. Is Subsequence](https://leetcode.com/problems/is-subsequence/)<br>Perspective: Know two pointers first; also understand the subsequence-DP formulation. |
+| 114 | 2026-11-24 | Tue | 1 Medium | [62. Unique Paths](https://leetcode.com/problems/unique-paths/)<br>Perspective: Compare two-dimensional DP with a rolling row; combinatorial counting is another perspective. |
+| 115 | 2026-11-25 | Wed | 1 Medium | [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)<br>Perspective: Reuse path DP while handling blocked cells and boundary initialization. |
+| 116 | 2026-11-26 | Thu | 1 Medium | [343. Integer Break](https://leetcode.com/problems/integer-break/)<br>Perspective: Know DP partitioning; understand the greedy argument favoring factors of 3. |
+| 117 | 2026-11-27 | Fri | 1 Medium | [96. Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)<br>Perspective: Use each value as root; connect the recurrence to Catalan numbers. |
+| 118 | 2026-11-28 | Sat | Buffer | Use this day if a carryover problem needs another attempt. |
+| 119 | 2026-11-29 | Sun | Targeted review | Review DP state definitions and the complete-knapsack perspective on climbing stairs. If time allows, revisit 746. Min Cost Climbing Stairs from Week 16. Use flagged problems if a coding review is needed. |
 
-## Week 19 · 2026-12-07–2026-12-13 — Robber and stock DP
-
-| Day | Date | Weekdays | Workload | Problems and perspectives |
-| --- | --- | --- | --- | --- |
-| 127 | 2026-12-07 | Mon | 1 Medium | [198. House Robber](https://leetcode.com/problems/house-robber/)<br>Perspective: Compare a full DP table with two rolling states. |
-| 128 | 2026-12-08 | Tue | 1 Medium | [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)<br>Perspective: Reduce the cycle to two linear ranges; handle very short inputs separately. |
-| 129 | 2026-12-09 | Wed | 1 Medium | [337. House Robber III](https://leetcode.com/problems/house-robber-iii/)<br>Perspective: Use take/skip states for each subtree; compare with the linear robber recurrence. |
-| 130 | 2026-12-10 | Thu | 3 Easy | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)<br>Perspective: Know running-minimum greedy reasoning and holding/not-holding DP.<br><br>[674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)<br>Perspective: Distinguish a contiguous increasing run from an increasing subsequence.<br><br>[1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) (review)<br>Perspective: Easy review to complete this three-problem group; check frequency uniqueness. |
-| 131 | 2026-12-11 | Fri | 1 Hard | [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)<br>Perspective: Model transaction stages; compare the formulation with general k-transaction DP. |
-| 132 | 2026-12-12 | Sat | 1 Hard | [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)<br>Perspective: Generalize transaction states; recognize the unlimited-transactions case. |
-| 133 | 2026-12-13 | Sun | Targeted review | Compare robber states on paths, cycles, and trees; explain stock transaction states. Use flagged problems if a coding review is needed. |
-
-## Week 20 · 2026-12-14–2026-12-20 — Stock DP and sequence matching
+## Week 18 · 2026-11-30–2026-12-06 — 0/1 knapsack and complete-knapsack foundations
 
 | Day | Date | Weekdays | Workload | Problems and perspectives |
 | --- | --- | --- | --- | --- |
-| 134 | 2026-12-14 | Mon | 1 Medium | [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)<br>Perspective: Make the cooldown transition explicit; compare three-state and delayed-transition formulations. |
-| 135 | 2026-12-15 | Tue | 1 Medium | [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)<br>Perspective: Know stock-state DP; understand the fee-adjusted greedy perspective. |
-| 136 | 2026-12-16 | Wed | 1 Medium | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)<br>Perspective: Know quadratic DP first; understand the O(n log n) tails + binary-search method. |
-| 137 | 2026-12-17 | Thu | 1 Medium | [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)<br>Perspective: Contrast contiguous-match DP with general longest-common-subsequence DP. |
-| 138 | 2026-12-18 | Fri | 1 Medium | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)<br>Perspective: Understand match/skip transitions; compare full-table DP with rolling rows. |
-| 139 | 2026-12-19 | Sat | 1 Medium | [1035. Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)<br>Perspective: Translate noncrossing connections into longest common subsequence. |
-| 140 | 2026-12-20 | Sun | Targeted review | Compare increasing subsequences, contiguous matches, and common subsequences. Use flagged problems if a coding review is needed. |
+| 120 | 2026-11-30 | Mon | 1 Kamacoder (unrated) | [Kama 46. 0/1 Knapsack](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/%E8%83%8C%E5%8C%85%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%8001%E8%83%8C%E5%8C%85-1.md)<br>Perspective: Know both two-dimensional and one-dimensional 0/1-knapsack DP; explain descending capacity updates. |
+| 121 | 2026-12-01 | Tue | 1 Medium | [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)<br>Perspective: Translate to 0/1 knapsack; compare boolean reachability with maximum packed sum. |
+| 122 | 2026-12-02 | Wed | 1 Medium | [1049. Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/)<br>Perspective: Transform stone cancellation into two groups with the smallest sum difference. |
+| 123 | 2026-12-03 | Thu | 1 Medium | [494. Target Sum](https://leetcode.com/problems/target-sum/)<br>Perspective: Know the subset-sum transformation; compare with memoized plus/minus recursion. |
+| 124 | 2026-12-04 | Fri | 1 Medium | [474. Ones and Zeroes](https://leetcode.com/problems/ones-and-zeroes/)<br>Perspective: Understand two resource capacities and descending updates for both. |
+| 125 | 2026-12-05 | Sat | 1 Kamacoder (unrated) | [Kama 52. Complete Knapsack](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80%E5%AE%8C%E5%85%A8%E8%83%8C%E5%8C%85.md)<br>Perspective: Know both two-dimensional and one-dimensional complete-knapsack DP; explain ascending capacity updates. |
+| 126 | 2026-12-06 | Sun | Targeted review | Compare two-dimensional and one-dimensional knapsack; explain capacity iteration direction. Use flagged problems if a coding review is needed. |
 
-## Week 21 · 2026-12-21–2026-12-27 — Sequence DP and monotonic-stack foundations
-
-| Day | Date | Weekdays | Workload | Problems and perspectives |
-| --- | --- | --- | --- | --- |
-| 141 | 2026-12-21 | Mon | 1 Hard | [115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)<br>Perspective: Count matching subsequences rather than maximizing their length; handle empty-prefix states. |
-| 142 | 2026-12-22 | Tue | 1 Medium | [583. Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)<br>Perspective: Compare direct deletion DP with the longest-common-subsequence relationship. |
-| 143 | 2026-12-23 | Wed | 1 Medium | [72. Edit Distance](https://leetcode.com/problems/edit-distance/)<br>Perspective: Understand insert/delete/replace transitions; compare bottom-up DP with memoized recursion. |
-| 144 | 2026-12-24 | Thu | 1 Medium | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)<br>Perspective: Know center expansion and interval DP. |
-| 145 | 2026-12-25 | Fri | 1 Medium | [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)<br>Perspective: Use interval DP; contrast palindromic subsequences with contiguous palindromes. |
-| 146 | 2026-12-26 | Sat | 1 Medium | [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)<br>Perspective: Maintain unresolved indices in a monotonic stack; explain when an answer becomes known. |
-| 147 | 2026-12-27 | Sun | Targeted review | Review counting versus optimization DP, palindrome states, and monotonic-stack invariants. Use flagged problems if a coding review is needed. |
-
-## Week 22 · 2026-12-28–2027-01-03 — Monotonic stacks and graph traversal
+## Week 19 · 2026-12-07–2026-12-13 — Complete and bounded knapsack
 
 | Day | Date | Weekdays | Workload | Problems and perspectives |
 | --- | --- | --- | --- | --- |
-| 148 | 2026-12-28 | Mon | 1 Medium | [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)<br>Perspective: Simulate circular traversal; separate pushing indices from resolving answers. |
-| 149 | 2026-12-29 | Tue | 1 Hard | [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)<br>Perspective: Know the DP-boundary, two-pointer, and monotonic-stack perspectives; implement one first. |
-| 150 | 2026-12-30 | Wed | 1 Hard | [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)<br>Perspective: Know nearest-smaller boundaries and the monotonic stack; explain sentinels and equal heights. |
-| 151 | 2026-12-31 | Thu | 1 Kamacoder (unrated) | [Kama 98. 所有可达路径](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0098.%E6%89%80%E6%9C%89%E5%8F%AF%E8%BE%BE%E8%B7%AF%E5%BE%84.md)<br>Perspective: Know adjacency-list and adjacency-matrix representations; use DFS/backtracking for path enumeration. |
-| 152 | 2027-01-01 | Fri | 1 Kamacoder (unrated) | [Kama 99. 岛屿的数量](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0099.%E5%B2%9B%E5%B1%BF%E7%9A%84%E6%95%B0%E9%87%8F%E6%B7%B1%E6%90%9C.md)<br>Perspective: Know both DFS and BFS flood fill; compare recursive DFS with an explicit stack. |
-| 153 | 2027-01-02 | Sat | 1 Kamacoder (unrated) | [Kama 100. 岛屿的最大面积](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0100.%E5%B2%9B%E5%B1%BF%E7%9A%84%E6%9C%80%E5%A4%A7%E9%9D%A2%E7%A7%AF.md)<br>Perspective: Use flood fill to accumulate component area; compare DFS and BFS. |
-| 154 | 2027-01-03 | Sun | Targeted review | Compare the rain-water approaches; explain DFS/BFS visited-state handling. Use flagged problems if a coding review is needed. |
+| 127 | 2026-12-07 | Mon | 1 Medium | [518. Coin Change II](https://leetcode.com/problems/coin-change-ii/)<br>Perspective: Count combinations with coin-first iteration; contrast with ordered sequences. |
+| 128 | 2026-12-08 | Tue | 1 Medium | [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)<br>Perspective: Count ordered sequences with target-first iteration; contrast with Coin Change II. |
+| 129 | 2026-12-09 | Wed | 1 Medium | [322. Coin Change](https://leetcode.com/problems/coin-change/)<br>Perspective: Compare minimum-count DP with BFS over reachable amounts. |
+| 130 | 2026-12-10 | Thu | 1 Medium | [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/)<br>Perspective: Compare minimum-count DP with BFS; number-theoretic shortcuts are optional. |
+| 131 | 2026-12-11 | Fri | 1 Medium | [139. Word Break](https://leetcode.com/problems/word-break/)<br>Perspective: Compare prefix DP with memoized segmentation; explain why naive recursion repeats work. |
+| 132 | 2026-12-12 | Sat | 1 Kamacoder (unrated) | [Kama 56. Multiple Knapsack](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98%E7%90%86%E8%AE%BA%E5%9F%BA%E7%A1%80%E5%A4%9A%E9%87%8D%E8%83%8C%E5%8C%85.md)<br>Perspective: Understand bounded counts and conversion to 0/1 items; binary grouping is an optional optimization. |
+| 133 | 2026-12-13 | Sun | Targeted review | Explain combinations versus permutations, bounded counts, and segmentation states. Use flagged problems if a coding review is needed. |
 
-## Week 23 · 2027-01-04–2027-01-10 — Graph grids and boundary problems
-
-| Day | Date | Weekdays | Workload | Problems and perspectives |
-| --- | --- | --- | --- | --- |
-| 155 | 2027-01-04 | Mon | 1 Kamacoder (unrated) | [Kama 101. 孤岛的总面积](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0101.%E5%AD%A4%E5%B2%9B%E7%9A%84%E6%80%BB%E9%9D%A2%E7%A7%AF.md)<br>Perspective: Compare boundary flood fill with marking each component as boundary-connected or enclosed. |
-| 156 | 2027-01-05 | Tue | 1 Kamacoder (unrated) | [Kama 102. 沉没孤岛](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0102.%E6%B2%89%E6%B2%A1%E5%AD%A4%E5%B2%9B.md)<br>Perspective: Mark boundary-connected land before changing enclosed cells; compare DFS and BFS. |
-| 157 | 2027-01-06 | Wed | 1 Kamacoder (unrated) | [Kama 103. 水流问题](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0103.%E6%B0%B4%E6%B5%81%E9%97%AE%E9%A2%98.md)<br>Perspective: Understand reverse traversal from the boundaries instead of searching outward from every cell. |
-| 158 | 2027-01-07 | Thu | 1 Kamacoder (unrated) | [Kama 104. 建造最大岛屿](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0104.%E5%BB%BA%E9%80%A0%E6%9C%80%E5%A4%A7%E5%B2%9B%E5%B1%BF.md)<br>Perspective: Label components and store their areas; deduplicate neighboring component IDs when joining them. |
-| 159 | 2027-01-08 | Fri | 1 Kamacoder (unrated) | [Kama 106. 岛屿的周长](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0106.%E5%B2%9B%E5%B1%BF%E7%9A%84%E5%91%A8%E9%95%BF.md)<br>Perspective: Compare counting exposed edges with counting land cells minus shared edges; traversal is not required. |
-| 160 | 2027-01-09 | Sat | 1 Kamacoder (unrated) | [Kama 110. 字符串接龙](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0110.%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%8E%A5%E9%BE%99.md)<br>Perspective: Use BFS for shortest transformation length; bidirectional BFS is an optional optimization. |
-| 161 | 2027-01-10 | Sun | Targeted review | Review boundary-connected components, reverse traversal, and component labels. Use flagged problems if a coding review is needed. |
-
-## Week 24 · 2027-01-11–2027-01-17 — Connectivity, spanning trees, and topological sorting
+## Week 20 · 2026-12-14–2026-12-20 — Robber and stock DP
 
 | Day | Date | Weekdays | Workload | Problems and perspectives |
 | --- | --- | --- | --- | --- |
-| 162 | 2027-01-11 | Mon | 1 Kamacoder (unrated) | [Kama 105. 有向图的完全可达性](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0105.%E6%9C%89%E5%90%91%E5%9B%BE%E7%9A%84%E5%AE%8C%E5%85%A8%E5%8F%AF%E8%BE%BE%E6%80%A7.md)<br>Perspective: Know directed reachability through DFS/BFS; do not treat edges as undirected. |
-| 163 | 2027-01-12 | Tue | 1 Kamacoder (unrated) | [Kama 107. 寻找存在的路径](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0107.%E5%AF%BB%E6%89%BE%E5%AD%98%E5%9C%A8%E7%9A%84%E8%B7%AF%E5%BE%84.md)<br>Perspective: Know DFS/BFS connectivity and union-find with path compression and union by rank/size. |
-| 164 | 2027-01-13 | Wed | 1 Kamacoder (unrated) | [Kama 108. 冗余连接](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0108.%E5%86%97%E4%BD%99%E8%BF%9E%E6%8E%A5.md)<br>Perspective: Use union-find to detect the first edge joining already-connected endpoints. |
-| 165 | 2027-01-14 | Thu | 1 Kamacoder (unrated) | [Kama 109. 冗余连接II](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0109.%E5%86%97%E4%BD%99%E8%BF%9E%E6%8E%A5II.md)<br>Perspective: Distinguish a node with two parents from a directed cycle; combine that reasoning with union-find. |
-| 166 | 2027-01-15 | Fri | 1 Kamacoder (unrated) | [Kama 53. 寻宝](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0053.%E5%AF%BB%E5%AE%9D-prim.md)<br>Perspective: Know both Prim and Kruskal; compare growing a tree with selecting edges between components. |
-| 167 | 2027-01-16 | Sat | 1 Kamacoder (unrated) | [Kama 117. 软件构建](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0117.%E8%BD%AF%E4%BB%B6%E6%9E%84%E5%BB%BA.md)<br>Perspective: Know indegree-based Kahn sorting and DFS postorder; understand cycle detection. |
-| 168 | 2027-01-17 | Sun | Targeted review | Compare DFS/BFS with union-find, Prim with Kruskal, and Kahn sorting with DFS postorder. Use flagged problems if a coding review is needed. |
+| 134 | 2026-12-14 | Mon | 1 Medium | [198. House Robber](https://leetcode.com/problems/house-robber/)<br>Perspective: Compare a full DP table with two rolling states. |
+| 135 | 2026-12-15 | Tue | 1 Medium | [213. House Robber II](https://leetcode.com/problems/house-robber-ii/)<br>Perspective: Reduce the cycle to two linear ranges; handle very short inputs separately. |
+| 136 | 2026-12-16 | Wed | 1 Medium | [337. House Robber III](https://leetcode.com/problems/house-robber-iii/)<br>Perspective: Use take/skip states for each subtree; compare with the linear robber recurrence. |
+| 137 | 2026-12-17 | Thu | 3 Easy | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)<br>Perspective: Know running-minimum greedy reasoning and holding/not-holding DP.<br><br>[674. Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/)<br>Perspective: Distinguish a contiguous increasing run from an increasing subsequence.<br><br>[1207. Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/) (review)<br>Perspective: Easy review to complete this three-problem group; check frequency uniqueness. |
+| 138 | 2026-12-18 | Fri | 1 Hard | [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)<br>Perspective: Model transaction stages; compare the formulation with general k-transaction DP. |
+| 139 | 2026-12-19 | Sat | 1 Hard | [188. Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)<br>Perspective: Generalize transaction states; recognize the unlimited-transactions case. |
+| 140 | 2026-12-20 | Sun | Targeted review | Compare robber states on paths, cycles, and trees; explain stock transaction states. Use flagged problems if a coding review is needed. |
 
-## Week 25 · 2027-01-18–2027-01-24 — Shortest paths and first-pass recap
+## Week 21 · 2026-12-21–2026-12-27 — Stock DP and sequence matching
 
 | Day | Date | Weekdays | Workload | Problems and perspectives |
 | --- | --- | --- | --- | --- |
-| 169 | 2027-01-18 | Mon | 1 Kamacoder (unrated) | [Kama 47. 参会](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0047.%E5%8F%82%E4%BC%9Adijkstra%E6%9C%B4%E7%B4%A0.md)<br>Perspective: Know naive and heap-optimized Dijkstra; explain the nonnegative-edge requirement. |
-| 170 | 2027-01-19 | Tue | 1 Kamacoder (unrated) | [Kama 94. 城市间货物运输I](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0094.%E5%9F%8E%E5%B8%82%E9%97%B4%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93I.md)<br>Perspective: Know Bellman–Ford and queue-based SPFA; SPFA has no better worst-case guarantee. |
-| 171 | 2027-01-20 | Wed | 1 Kamacoder (unrated) | [Kama 95. 城市间货物运输II](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0095.%E5%9F%8E%E5%B8%82%E9%97%B4%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93II.md)<br>Perspective: Understand why an additional relaxation reveals a reachable negative-weight cycle. |
-| 172 | 2027-01-21 | Thu | 1 Kamacoder (unrated) | [Kama 96. 城市间货物运输III](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0096.%E5%9F%8E%E5%B8%82%E9%97%B4%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93III.md)<br>Perspective: Use the previous relaxation round when enforcing an edge-count limit. |
-| 173 | 2027-01-22 | Fri | 1 Kamacoder (unrated) | [Kama 97. 小明逛公园](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0097.%E5%B0%8F%E6%98%8E%E9%80%9B%E5%85%AC%E5%9B%AD.md)<br>Perspective: Know Floyd–Warshall's intermediate-vertex DP interpretation; compare with repeated single-source searches. |
-| 174 | 2027-01-23 | Sat | 1 Kamacoder (unrated) | [Kama 126. 骑士的攻击](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0126.%E9%AA%91%E5%A3%AB%E7%9A%84%E6%94%BB%E5%87%BBastar.md)<br>Perspective: Understand how A* combines path cost with a heuristic; compare with Dijkstra and BFS, and when the heuristic preserves optimality. |
-| 175 | 2027-01-24 | Sun | Targeted review | Compare shortest-path assumptions and complexity. Audit the mistake log and choose the next targeted recap. Use flagged problems if a coding review is needed. |
+| 141 | 2026-12-21 | Mon | 1 Medium | [309. Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)<br>Perspective: Make the cooldown transition explicit; compare three-state and delayed-transition formulations. |
+| 142 | 2026-12-22 | Tue | 1 Medium | [714. Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)<br>Perspective: Know stock-state DP; understand the fee-adjusted greedy perspective. |
+| 143 | 2026-12-23 | Wed | 1 Medium | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)<br>Perspective: Know quadratic DP first; understand the O(n log n) tails + binary-search method. |
+| 144 | 2026-12-24 | Thu | 1 Medium | [718. Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)<br>Perspective: Contrast contiguous-match DP with general longest-common-subsequence DP. |
+| 145 | 2026-12-25 | Fri | 1 Medium | [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)<br>Perspective: Understand match/skip transitions; compare full-table DP with rolling rows. |
+| 146 | 2026-12-26 | Sat | 1 Medium | [1035. Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)<br>Perspective: Translate noncrossing connections into longest common subsequence. |
+| 147 | 2026-12-27 | Sun | Targeted review | Compare increasing subsequences, contiguous matches, and common subsequences. Use flagged problems if a coding review is needed. |
+
+## Week 22 · 2026-12-28–2027-01-03 — Sequence DP and monotonic-stack foundations
+
+| Day | Date | Weekdays | Workload | Problems and perspectives |
+| --- | --- | --- | --- | --- |
+| 148 | 2026-12-28 | Mon | 1 Hard | [115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)<br>Perspective: Count matching subsequences rather than maximizing their length; handle empty-prefix states. |
+| 149 | 2026-12-29 | Tue | 1 Medium | [583. Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)<br>Perspective: Compare direct deletion DP with the longest-common-subsequence relationship. |
+| 150 | 2026-12-30 | Wed | 1 Medium | [72. Edit Distance](https://leetcode.com/problems/edit-distance/)<br>Perspective: Understand insert/delete/replace transitions; compare bottom-up DP with memoized recursion. |
+| 151 | 2026-12-31 | Thu | 1 Medium | [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)<br>Perspective: Know center expansion and interval DP. |
+| 152 | 2027-01-01 | Fri | 1 Medium | [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)<br>Perspective: Use interval DP; contrast palindromic subsequences with contiguous palindromes. |
+| 153 | 2027-01-02 | Sat | 1 Medium | [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)<br>Perspective: Maintain unresolved indices in a monotonic stack; explain when an answer becomes known. |
+| 154 | 2027-01-03 | Sun | Targeted review | Review counting versus optimization DP, palindrome states, and monotonic-stack invariants. Use flagged problems if a coding review is needed. |
+
+## Week 23 · 2027-01-04–2027-01-10 — Monotonic stacks and graph traversal
+
+| Day | Date | Weekdays | Workload | Problems and perspectives |
+| --- | --- | --- | --- | --- |
+| 155 | 2027-01-04 | Mon | 1 Medium | [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)<br>Perspective: Simulate circular traversal; separate pushing indices from resolving answers. |
+| 156 | 2027-01-05 | Tue | 1 Hard | [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)<br>Perspective: Know the DP-boundary, two-pointer, and monotonic-stack perspectives; implement one first. |
+| 157 | 2027-01-06 | Wed | 1 Hard | [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)<br>Perspective: Know nearest-smaller boundaries and the monotonic stack; explain sentinels and equal heights. |
+| 158 | 2027-01-07 | Thu | 1 Kamacoder (unrated) | [Kama 98. 所有可达路径](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0098.%E6%89%80%E6%9C%89%E5%8F%AF%E8%BE%BE%E8%B7%AF%E5%BE%84.md)<br>Perspective: Know adjacency-list and adjacency-matrix representations; use DFS/backtracking for path enumeration. |
+| 159 | 2027-01-08 | Fri | 1 Kamacoder (unrated) | [Kama 99. 岛屿的数量](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0099.%E5%B2%9B%E5%B1%BF%E7%9A%84%E6%95%B0%E9%87%8F%E6%B7%B1%E6%90%9C.md)<br>Perspective: Know both DFS and BFS flood fill; compare recursive DFS with an explicit stack. |
+| 160 | 2027-01-09 | Sat | 1 Kamacoder (unrated) | [Kama 100. 岛屿的最大面积](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0100.%E5%B2%9B%E5%B1%BF%E7%9A%84%E6%9C%80%E5%A4%A7%E9%9D%A2%E7%A7%AF.md)<br>Perspective: Use flood fill to accumulate component area; compare DFS and BFS. |
+| 161 | 2027-01-10 | Sun | Targeted review | Compare the rain-water approaches; explain DFS/BFS visited-state handling. Use flagged problems if a coding review is needed. |
+
+## Week 24 · 2027-01-11–2027-01-17 — Graph grids and boundary problems
+
+| Day | Date | Weekdays | Workload | Problems and perspectives |
+| --- | --- | --- | --- | --- |
+| 162 | 2027-01-11 | Mon | 1 Kamacoder (unrated) | [Kama 101. 孤岛的总面积](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0101.%E5%AD%A4%E5%B2%9B%E7%9A%84%E6%80%BB%E9%9D%A2%E7%A7%AF.md)<br>Perspective: Compare boundary flood fill with marking each component as boundary-connected or enclosed. |
+| 163 | 2027-01-12 | Tue | 1 Kamacoder (unrated) | [Kama 102. 沉没孤岛](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0102.%E6%B2%89%E6%B2%A1%E5%AD%A4%E5%B2%9B.md)<br>Perspective: Mark boundary-connected land before changing enclosed cells; compare DFS and BFS. |
+| 164 | 2027-01-13 | Wed | 1 Kamacoder (unrated) | [Kama 103. 水流问题](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0103.%E6%B0%B4%E6%B5%81%E9%97%AE%E9%A2%98.md)<br>Perspective: Understand reverse traversal from the boundaries instead of searching outward from every cell. |
+| 165 | 2027-01-14 | Thu | 1 Kamacoder (unrated) | [Kama 104. 建造最大岛屿](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0104.%E5%BB%BA%E9%80%A0%E6%9C%80%E5%A4%A7%E5%B2%9B%E5%B1%BF.md)<br>Perspective: Label components and store their areas; deduplicate neighboring component IDs when joining them. |
+| 166 | 2027-01-15 | Fri | 1 Kamacoder (unrated) | [Kama 106. 岛屿的周长](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0106.%E5%B2%9B%E5%B1%BF%E7%9A%84%E5%91%A8%E9%95%BF.md)<br>Perspective: Compare counting exposed edges with counting land cells minus shared edges; traversal is not required. |
+| 167 | 2027-01-16 | Sat | 1 Kamacoder (unrated) | [Kama 110. 字符串接龙](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0110.%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%8E%A5%E9%BE%99.md)<br>Perspective: Use BFS for shortest transformation length; bidirectional BFS is an optional optimization. |
+| 168 | 2027-01-17 | Sun | Targeted review | Review boundary-connected components, reverse traversal, and component labels. Use flagged problems if a coding review is needed. |
+
+## Week 25 · 2027-01-18–2027-01-24 — Connectivity, spanning trees, and topological sorting
+
+| Day | Date | Weekdays | Workload | Problems and perspectives |
+| --- | --- | --- | --- | --- |
+| 169 | 2027-01-18 | Mon | 1 Kamacoder (unrated) | [Kama 105. 有向图的完全可达性](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0105.%E6%9C%89%E5%90%91%E5%9B%BE%E7%9A%84%E5%AE%8C%E5%85%A8%E5%8F%AF%E8%BE%BE%E6%80%A7.md)<br>Perspective: Know directed reachability through DFS/BFS; do not treat edges as undirected. |
+| 170 | 2027-01-19 | Tue | 1 Kamacoder (unrated) | [Kama 107. 寻找存在的路径](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0107.%E5%AF%BB%E6%89%BE%E5%AD%98%E5%9C%A8%E7%9A%84%E8%B7%AF%E5%BE%84.md)<br>Perspective: Know DFS/BFS connectivity and union-find with path compression and union by rank/size. |
+| 171 | 2027-01-20 | Wed | 1 Kamacoder (unrated) | [Kama 108. 冗余连接](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0108.%E5%86%97%E4%BD%99%E8%BF%9E%E6%8E%A5.md)<br>Perspective: Use union-find to detect the first edge joining already-connected endpoints. |
+| 172 | 2027-01-21 | Thu | 1 Kamacoder (unrated) | [Kama 109. 冗余连接II](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0109.%E5%86%97%E4%BD%99%E8%BF%9E%E6%8E%A5II.md)<br>Perspective: Distinguish a node with two parents from a directed cycle; combine that reasoning with union-find. |
+| 173 | 2027-01-22 | Fri | 1 Kamacoder (unrated) | [Kama 53. 寻宝](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0053.%E5%AF%BB%E5%AE%9D-prim.md)<br>Perspective: Know both Prim and Kruskal; compare growing a tree with selecting edges between components. |
+| 174 | 2027-01-23 | Sat | 1 Kamacoder (unrated) | [Kama 117. 软件构建](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0117.%E8%BD%AF%E4%BB%B6%E6%9E%84%E5%BB%BA.md)<br>Perspective: Know indegree-based Kahn sorting and DFS postorder; understand cycle detection. |
+| 175 | 2027-01-24 | Sun | Targeted review | Compare DFS/BFS with union-find, Prim with Kruskal, and Kahn sorting with DFS postorder. Use flagged problems if a coding review is needed. |
+
+## Week 26 · 2027-01-25–2027-01-31 — Shortest paths and first-pass recap
+
+| Day | Date | Weekdays | Workload | Problems and perspectives |
+| --- | --- | --- | --- | --- |
+| 176 | 2027-01-25 | Mon | 1 Kamacoder (unrated) | [Kama 47. 参会](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0047.%E5%8F%82%E4%BC%9Adijkstra%E6%9C%B4%E7%B4%A0.md)<br>Perspective: Know naive and heap-optimized Dijkstra; explain the nonnegative-edge requirement. |
+| 177 | 2027-01-26 | Tue | 1 Kamacoder (unrated) | [Kama 94. 城市间货物运输I](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0094.%E5%9F%8E%E5%B8%82%E9%97%B4%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93I.md)<br>Perspective: Know Bellman–Ford and queue-based SPFA; SPFA has no better worst-case guarantee. |
+| 178 | 2027-01-27 | Wed | 1 Kamacoder (unrated) | [Kama 95. 城市间货物运输II](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0095.%E5%9F%8E%E5%B8%82%E9%97%B4%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93II.md)<br>Perspective: Understand why an additional relaxation reveals a reachable negative-weight cycle. |
+| 179 | 2027-01-28 | Thu | 1 Kamacoder (unrated) | [Kama 96. 城市间货物运输III](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0096.%E5%9F%8E%E5%B8%82%E9%97%B4%E8%B4%A7%E7%89%A9%E8%BF%90%E8%BE%93III.md)<br>Perspective: Use the previous relaxation round when enforcing an edge-count limit. |
+| 180 | 2027-01-29 | Fri | 1 Kamacoder (unrated) | [Kama 97. 小明逛公园](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0097.%E5%B0%8F%E6%98%8E%E9%80%9B%E5%85%AC%E5%9B%AD.md)<br>Perspective: Know Floyd–Warshall's intermediate-vertex DP interpretation; compare with repeated single-source searches. |
+| 181 | 2027-01-30 | Sat | 1 Kamacoder (unrated) | [Kama 126. 骑士的攻击](https://github.com/youngyangyang04/leetcode-master/blob/master/problems/kamacoder/0126.%E9%AA%91%E5%A3%AB%E7%9A%84%E6%94%BB%E5%87%BBastar.md)<br>Perspective: Understand how A* combines path cost with a heuristic; compare with Dijkstra and BFS, and when the heuristic preserves optimality. |
+| 182 | 2027-01-31 | Sun | Targeted review | Compare shortest-path assumptions and complexity. Audit the mistake log and choose the next targeted recap. Use flagged problems if a coding review is needed. |
 
 ## Scope and timing
 
@@ -344,11 +356,11 @@ Weeks 1–5 are treated as already covered for first-pass counting; a scheduled 
 
 | Remaining first-pass work from Week 6 | Practice days |
 | --- | --- |
-| 35 distinct Easy problems + 1 Easy review | 12 |
+| 35 distinct Easy problems + 1 Easy review | 13 |
 | 69 distinct Medium problems | 69 |
 | 11 distinct Hard problems | 11 |
 | 28 distinct Kamacoder exercises | 28 |
-| Total | 120 (20 weeks at six practice days per week) |
+| Total | 121 across Weeks 6–26 |
 
 Unlike the previous April plan, this version does not retain every supplementary exercise. It omits duplicate LeetCode counterparts for the Kamacoder graph exercises, supplementary tree variants and warm-ups, separately scheduled alternate implementations, automatic repeat sets, and the two fixed final-consolidation weeks. Historical stretch notes in Weeks 1–5 remain historical; they do not add mandatory future assignments. The scope is the main README curriculum, not every problem linked inside every article or every file in the repository.
 
@@ -360,7 +372,7 @@ LeetCode labels use the [problem catalog](https://leetcode.com/api/problems/all/
 - For every DP problem, write the state, recurrence, initialization, iteration order, and one example. Treat greedy/DP and 1D/2D formulations as perspectives on the same exercise rather than automatic extra assignments.
 - For graphs, state whether edges are directed or weighted, whether negative weights are allowed, and why the chosen algorithm applies. Practice Java console input/output on the Kamacoder exercises.
 - For targeted retries, attempt the problem without hints, then explain correctness and time/space complexity. Clear a “should solve again” flag only when you can reproduce the reasoning, not merely after an accepted submission.
-- Reassess dates at each chapter boundary. Twelve additional Monday–Saturday practice days would move the last-problem baseline from January 23 to February 6, 2027. Sundays remain available for review, and no catch-up pile is required.
+- Reassess dates at each chapter boundary. Twelve additional Monday–Saturday practice days would move the last-problem baseline from January 30 to February 13, 2027. Sundays remain available for review.
 
 ### Perspectives worth revisiting from Weeks 1–5
 
